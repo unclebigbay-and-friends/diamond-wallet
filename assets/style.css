@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    justify-content: center;
+}
+
+.btn btn-outline-success {
+    background-color: #198754;
+}
+
+.intro-img {
+    width: 100%;
+}
+
+.intro {
+    position: relative;
+    top: -20em;
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    margin-left: 5em;
+    border: 1px solid;
+    flex-direction: column;
+    padding: 2%;
+    background-color: rgba(245, 247, 251, 0.85);
+    color:rgba(31, 68, 146, 1);
+}
+
+.intro-btn {
+    width: 25%;
+    background: rgba(31, 68, 146, 1);
+    color: white;
+    border-radius: 3px;
+    outline: none;
+    border:none;
+}
