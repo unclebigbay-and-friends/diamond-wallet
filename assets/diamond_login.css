@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+div{
+	width: 450px;
+	padding: 50px;
+	padding-left: 85px;
+	margin: 6% auto 0;
+	text-align: left;
+	background: #edf1f9;
+}
+h1{
+	margin-bottom: 8%;
+}
+h3{
+	font-weight: normal;
+	margin-left: 60px;
+}
+.email{
+	width: 85%;
+	padding: 10px;
+	margin: 10px 0;
+	height: 20px;
+	border: 1px solid #999;
+	border-radius: 6px;
+	
+}
+
+.password{
+	width: 85%;
+	padding: 10px;
+	margin: 10px 0;
+	height: 20px;
+	border: 1px solid #999;
+	border-radius: 6px;
+}
+a{
+	text-decoration: none;
+	color: #00bfff;
+}
+
+.forget{
+	margin-left: 62%;
+}
+.check{
+	height: 16px;
+	width: 16px;
+}
+.rem{
+	font-size: 18px;
+	margin-left: 10px;
+}
+label{
+	font-size: 18px;
+}
+button{
+	background-color: rgba(31, 68, 146, 1);
+	color: #fff;
+	border-radius: 5px;
+	width: 120px;
+	height: 35px;
+	border-radius: 6px;
+	margin: 10px 0;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+.sign{
+	margin-left: 8px;
+}
+
+@media only screen and (max-width:600px)
+{
+	div{
+		width: 60%;
+		text-align: left;
+	}
+	.forget{
+		margin-left: 90px;
+	}
+	button{
+		width: 80px;
+	}
+
+}

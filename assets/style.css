@@ -11,13 +11,6 @@ header {
     justify-content: center;
 }
 
-.btn {
-    background-color: #198754;
-    width: 20%;
-    color: white;
-    border-radius: 2em;
-}
-
 .intro-img {
     width: 100%;
 }
@@ -46,6 +39,15 @@ header {
     border:none;
     padding: 4px;
     font-size: 0.7rem;
+}
+.logbtn{
+    background-color: #198754;
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-right: 50px;
+    height: 40px;
 }
 
 .feature {
